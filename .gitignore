@@ -1,0 +1,12 @@
+# Docker
+.DS_Store
+
+# Laravel
+backend/vendor/
+backend/.env
+backend/storage/*.key
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
