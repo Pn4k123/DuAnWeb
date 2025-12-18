@@ -11,8 +11,7 @@ Docker & Docker Compose
 🛠 Các bước cài đặt
 1. Clone project từ repository Mở terminal và chạy lệnh:
 
-git clone <url_repo>
-cd <ten_thu_muc_project>
+git clone https://github.com/Pn4k123/DuAnWeb.git
 
 2. Cấu hình môi trường (.env) Tạo file môi trường từ file mẫu. Đừng quên mở file .env ra để chỉnh sửa các thông số Database (DB_HOST, DB_PASSWORD,...) cho phù hợp nếu cần thiết.
 
