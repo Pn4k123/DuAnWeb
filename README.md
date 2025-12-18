@@ -17,6 +17,13 @@ git clone https://github.com/Pn4k123/DuAnWeb.git
 
 cp backend/.env.example backend/.env
 
+DB_CONNECTION=mysql
+DB_HOST=db          
+DB_PORT=3306
+DB_DATABASE=my_database
+DB_USERNAME=root
+DB_PASSWORD=root_password
+
 3. Khởi động Docker Containers Lệnh này sẽ build image và chạy các container (PHP, MySQL, Nginx...) ở chế độ chạy ngầm (detached mode).
 
 docker compose up -d --build
